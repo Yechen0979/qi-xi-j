@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>七夕节快乐！</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #header {
+      background-color: #ffcc00;
+      color: white;
+      padding: 10px;
+    }
+    
+    #content {
+      padding: 20px;
+    }
+    
+    #message {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    
+    #image {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    #heart {
+      font-size: 36px;
+      color: red;
+      animation: heartbeat 1s infinite alternate;
+    }
+    
+    @keyframes heartbeat {
+      from {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(1.1);
+      }
+    }
+    
+    #video-container {
+      max-width: 100%;
+      margin: 20px 0;
+    }
+    
+    #video {
+      width: 100%;
+      height: auto;
+    }
+    
+    #footer {
+      background-color: #ffcc00;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>七夕节快乐！</h1>
+  </div>
+  <div id="content">
+    <div id="message">
+      <p>在这个浪漫的七夕节，愿你和你的爱人幸福美满，牵手走过每一个美好的时刻。</p>
+      <p>让我们一起共同庆祝这个特殊的日子，留下美好的回忆。</p>
+    </div>
+    
+    <!-- 放视频的地方 -->
+    <div id="video-container">
+      <video id="video" controls>
+        <!-- 这里引用了本地视频文件 -->
+        <source src="your-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <!-- 这里是需要替换的心形标志 -->
+    <span id="heart">❤️</span>
+    
+    <!-- 放图片的地方 -->
+    <img id="image" src="your-image.jpg" alt="七夕节快乐">
+  </div>
+  <div id="footer">
+    <p>祝福来自：李诗雅</p>
+  </div>
+</body>
+</html>
